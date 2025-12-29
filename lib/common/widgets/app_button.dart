@@ -7,6 +7,7 @@ class AppButton extends StatelessWidget {
   final bool isLoading;
   final IconData? icon;
   final ButtonType type;
+  final double? width;
 
   const AppButton({
     super.key,
@@ -15,6 +16,7 @@ class AppButton extends StatelessWidget {
     this.isLoading = false,
     this.icon,
     this.type = ButtonType.primary,
+    this.width,
   });
 
   @override
@@ -62,6 +64,7 @@ class AppButton extends StatelessWidget {
       label: text,
       child: SizedBox(
         height: AppConstants.buttonHeight,
+        width: width,
         child: type == ButtonType.primary
             ? ElevatedButton(
                 onPressed: isLoading ? null : onPressed,

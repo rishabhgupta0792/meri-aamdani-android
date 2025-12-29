@@ -316,6 +316,20 @@ I have successfully automated the installation and configuration of the developm
 4. **Licenses**: All Android SDK licenses have been accepted.
 5. **Emulator**: Created a virtual device named `meri_amdani` using a Google APIs ARM64 image.
 
+## Web App Alignment
+
+The Flutter application is now fully aligned with the existing JavaScript web app. We've implemented the same authentication flow and refined the dashboard layout for consistency across platforms.
+
+### Aligned Features:
+- **Language Selection**: Initial screen supporting English, Hindi, and Marathi.
+- **Login Flow**: 10-digit mobile number entry followed by Aadhaar and OTP verification.
+- **Dashboard Refinement**: Added Greeting section, split Pending/Collected stats, and a 3-column Quick Actions grid.
+- **Marathi Support**: Integrated Marathi localization (मराठी) to match the web app's reach.
+
+### Visual Verification:
+![Language Selection](/Users/atulchavan/.gemini/antigravity/brain/b667616e-c4ee-4154-9c71-706ea4a80016/lang_select.png)
+*Initial screen for selecting the preferred language.*
+
 ## First Run Verification
 
 The application was successfully launched on an Android emulator. Below is a screenshot of the Dashboard showing the minimalistic and elegant design system in action:

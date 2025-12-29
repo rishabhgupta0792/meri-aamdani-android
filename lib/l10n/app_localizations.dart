@@ -7,6 +7,7 @@ import 'package:intl/intl.dart' as intl;
 
 import 'app_localizations_en.dart';
 import 'app_localizations_hi.dart';
+import 'app_localizations_mr.dart';
 
 // ignore_for_file: type=lint
 
@@ -95,7 +96,8 @@ abstract class AppLocalizations {
   /// A list of this localizations delegate's supported locales.
   static const List<Locale> supportedLocales = <Locale>[
     Locale('en'),
-    Locale('hi')
+    Locale('hi'),
+    Locale('mr')
   ];
 
   /// No description provided for @appTitle.
@@ -301,6 +303,126 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'₹'**
   String get rupeeSymbol;
+
+  /// No description provided for @welcome.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome'**
+  String get welcome;
+
+  /// No description provided for @summary_today.
+  ///
+  /// In en, this message translates to:
+  /// **'Here is your summary for today'**
+  String get summary_today;
+
+  /// No description provided for @collected.
+  ///
+  /// In en, this message translates to:
+  /// **'Collected'**
+  String get collected;
+
+  /// No description provided for @request_pay.
+  ///
+  /// In en, this message translates to:
+  /// **'Request Pay'**
+  String get request_pay;
+
+  /// No description provided for @recent_activity.
+  ///
+  /// In en, this message translates to:
+  /// **'Recent Activity'**
+  String get recent_activity;
+
+  /// No description provided for @see_all.
+  ///
+  /// In en, this message translates to:
+  /// **'See All'**
+  String get see_all;
+
+  /// No description provided for @identity_verification.
+  ///
+  /// In en, this message translates to:
+  /// **'Identity Verification'**
+  String get identity_verification;
+
+  /// No description provided for @enter_aadhaar_desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter your 12-digit Aadhaar number'**
+  String get enter_aadhaar_desc;
+
+  /// No description provided for @enter_otp_desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter the 6-digit OTP sent to your registered mobile'**
+  String get enter_otp_desc;
+
+  /// No description provided for @aadhaar_placeholder.
+  ///
+  /// In en, this message translates to:
+  /// **'0000 0000 0000'**
+  String get aadhaar_placeholder;
+
+  /// No description provided for @enter_otp_placeholder.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter OTP'**
+  String get enter_otp_placeholder;
+
+  /// No description provided for @send_otp.
+  ///
+  /// In en, this message translates to:
+  /// **'Send OTP'**
+  String get send_otp;
+
+  /// No description provided for @verify_proceed.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify & Proceed'**
+  String get verify_proceed;
+
+  /// No description provided for @back_aadhaar.
+  ///
+  /// In en, this message translates to:
+  /// **'Back to Aadhaar'**
+  String get back_aadhaar;
+
+  /// No description provided for @select_bank.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Bank'**
+  String get select_bank;
+
+  /// No description provided for @search_bank.
+  ///
+  /// In en, this message translates to:
+  /// **'Search your bank...'**
+  String get search_bank;
+
+  /// No description provided for @confirm_bank.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm & Continue'**
+  String get confirm_bank;
+
+  /// No description provided for @mobile_placeholder.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter 10 digit mobile number'**
+  String get mobile_placeholder;
+
+  /// No description provided for @continueBtn.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue'**
+  String get continueBtn;
+
+  /// No description provided for @terms_text.
+  ///
+  /// In en, this message translates to:
+  /// **'By continuing, you agree to our Terms of Service and Privacy Policy'**
+  String get terms_text;
 }
 
 class _AppLocalizationsDelegate
@@ -314,7 +436,7 @@ class _AppLocalizationsDelegate
 
   @override
   bool isSupported(Locale locale) =>
-      <String>['en', 'hi'].contains(locale.languageCode);
+      <String>['en', 'hi', 'mr'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
@@ -327,6 +449,8 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
       return AppLocalizationsEn();
     case 'hi':
       return AppLocalizationsHi();
+    case 'mr':
+      return AppLocalizationsMr();
   }
 
   throw FlutterError(

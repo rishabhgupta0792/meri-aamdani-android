@@ -109,4 +109,66 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get rupeeSymbol => '₹';
+
+  @override
+  String get welcome => 'Welcome';
+
+  @override
+  String get summary_today => 'Here is your summary for today';
+
+  @override
+  String get collected => 'Collected';
+
+  @override
+  String get request_pay => 'Request Pay';
+
+  @override
+  String get recent_activity => 'Recent Activity';
+
+  @override
+  String get see_all => 'See All';
+
+  @override
+  String get identity_verification => 'Identity Verification';
+
+  @override
+  String get enter_aadhaar_desc => 'Please enter your 12-digit Aadhaar number';
+
+  @override
+  String get enter_otp_desc =>
+      'Please enter the 6-digit OTP sent to your registered mobile';
+
+  @override
+  String get aadhaar_placeholder => '0000 0000 0000';
+
+  @override
+  String get enter_otp_placeholder => 'Enter OTP';
+
+  @override
+  String get send_otp => 'Send OTP';
+
+  @override
+  String get verify_proceed => 'Verify & Proceed';
+
+  @override
+  String get back_aadhaar => 'Back to Aadhaar';
+
+  @override
+  String get select_bank => 'Select Bank';
+
+  @override
+  String get search_bank => 'Search your bank...';
+
+  @override
+  String get confirm_bank => 'Confirm & Continue';
+
+  @override
+  String get mobile_placeholder => 'Enter 10 digit mobile number';
+
+  @override
+  String get continueBtn => 'Continue';
+
+  @override
+  String get terms_text =>
+      'By continuing, you agree to our Terms of Service and Privacy Policy';
 }

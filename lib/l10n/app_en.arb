@@ -43,5 +43,30 @@
   "settings": "Settings",
   "about": "About",
   
-  "rupeeSymbol": "₹"
+  "rupeeSymbol": "₹",
+  
+  "welcome": "Welcome",
+  "summary_today": "Here is your summary for today",
+  "pending": "Pending",
+  "collected": "Collected",
+  "request_pay": "Request Pay",
+  "recent_activity": "Recent Activity",
+  "see_all": "See All",
+  
+  "identity_verification": "Identity Verification",
+  "enter_aadhaar_desc": "Please enter your 12-digit Aadhaar number",
+  "enter_otp_desc": "Please enter the 6-digit OTP sent to your registered mobile",
+  "aadhaar_placeholder": "0000 0000 0000",
+  "enter_otp_placeholder": "Enter OTP",
+  "send_otp": "Send OTP",
+  "verify_proceed": "Verify & Proceed",
+  "back_aadhaar": "Back to Aadhaar",
+  
+  "select_bank": "Select Bank",
+  "search_bank": "Search your bank...",
+  "confirm_bank": "Confirm & Continue",
+  
+  "mobile_placeholder": "Enter 10 digit mobile number",
+  "continueBtn": "Continue",
+  "terms_text": "By continuing, you agree to our Terms of Service and Privacy Policy"
 }

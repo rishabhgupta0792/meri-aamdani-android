@@ -43,5 +43,30 @@
   "settings": "सेटिंग्स",
   "about": "बारे में",
   
-  "rupeeSymbol": "₹"
+  "rupeeSymbol": "₹",
+
+  "welcome": "स्वागत है",
+  "summary_today": "यहाँ आपकी आज की जानकारी है",
+  "pending": "अधूरा",
+  "collected": "प्राप्त",
+  "request_pay": "भुगतान मांगें",
+  "recent_activity": "हाल की गतिविधि",
+  "see_all": "सभी देखें",
+
+  "identity_verification": "पहचान सत्यापन",
+  "enter_aadhaar_desc": "कृपया अपना 12-अंकों का आधार नंबर दर्ज करें",
+  "enter_otp_desc": "कृपया आपके पंजीकृत मोबाइल पर भेजा गया 6-अंकों का ओटीपी दर्ज करें",
+  "aadhaar_placeholder": "0000 0000 0000",
+  "enter_otp_placeholder": "ओटीपी दर्ज करें",
+  "send_otp": "ओटीपी भेजें",
+  "verify_proceed": "सत्यापित करें और आगे बढ़ें",
+  "back_aadhaar": "आधार पर वापस जाएं",
+
+  "select_bank": "बैंक चुनें",
+  "search_bank": "अपना बैंक खोजें...",
+  "confirm_bank": "पुष्टि करें और आगे बढ़ें",
+
+  "mobile_placeholder": "10 अंकों का मोबाइल नंबर दर्ज करें",
+  "continueBtn": "जारी रखें",
+  "terms_text": "जारी रखकर, आप हमारी सेवा की शर्तों और गोपनीयता नीति से सहमत होते हैं"
 }
