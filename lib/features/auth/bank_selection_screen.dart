@@ -16,7 +16,7 @@ class BankSelectionScreen extends ConsumerStatefulWidget {
 
 class _BankSelectionScreenState extends ConsumerState<BankSelectionScreen> {
   final _searchController = TextEditingController();
-  String? _selectedBank;
+  String? _selectedBank = 'State Bank of India'; // Pre-selected for demo
   final List<String> _banks = [
     'State Bank of India',
     'HDFC Bank',

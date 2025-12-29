@@ -15,7 +15,7 @@ class LoginScreen extends ConsumerStatefulWidget {
 }
 
 class _LoginScreenState extends ConsumerState<LoginScreen> {
-  final _phoneController = TextEditingController();
+  final _phoneController = TextEditingController(text: '9876543210'); // Pre-filled for demo
   String? _error;
 
   @override

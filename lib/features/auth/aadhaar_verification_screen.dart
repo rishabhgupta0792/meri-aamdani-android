@@ -16,8 +16,8 @@ class AadhaarVerificationScreen extends ConsumerStatefulWidget {
 
 class _AadhaarVerificationScreenState extends ConsumerState<AadhaarVerificationScreen> {
   int _step = 1; // 1: Aadhaar Input, 2: OTP Input
-  final _aadhaarController = TextEditingController();
-  final _otpController = TextEditingController();
+  final _aadhaarController = TextEditingController(text: '123456789012'); // Pre-filled for demo
+  final _otpController = TextEditingController(text: '123456'); // Pre-filled for demo
   bool _isLoading = false;
   String? _error;
 
