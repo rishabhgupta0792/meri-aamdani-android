@@ -1,0 +1,47 @@
+{
+  "@@locale": "hi",
+  "appTitle": "मेरी आमदनी",
+  "appSubtitle": "अपनी कमाई ट्रैक करें",
+  
+  "dashboard": "डैशबोर्ड",
+  "jobs": "काम",
+  "payments": "भुगतान",
+  "profile": "प्रोफ़ाइल",
+  
+  "totalEarnings": "कुल कमाई",
+  "thisMonth": "इस महीने",
+  "pendingIncome": "बकाया",
+  "collectedIncome": "प्राप्त",
+  
+  "addWork": "काम जोड़ें",
+  "requestPayment": "भुगतान का अनुरोध करें",
+  "myJobs": "मेरे काम",
+  
+  "jobTitle": "काम का नाम",
+  "employerName": "नियोक्ता का नाम",
+  "amount": "राशि",
+  "date": "तारीख",
+  "status": "स्थिति",
+  "notes": "नोट्स",
+  
+  "pending": "बकाया",
+  "completed": "पूर्ण",
+  "paid": "भुगतान किया गया",
+  
+  "save": "सहेजें",
+  "cancel": "रद्द करें",
+  "delete": "हटाएं",
+  "edit": "संपादित करें",
+  
+  "noJobsYet": "अभी तक कोई काम नहीं",
+  "addFirstJob": "आय ट्रैक करना शुरू करने के लिए अपना पहला काम जोड़ें",
+  
+  "noPaymentsYet": "अभी तक कोई भुगतान नहीं",
+  "trackPayments": "आपके भुगतान अनुरोध यहां दिखाई देंगे",
+  
+  "language": "भाषा",
+  "settings": "सेटिंग्स",
+  "about": "बारे में",
+  
+  "rupeeSymbol": "₹"
+}

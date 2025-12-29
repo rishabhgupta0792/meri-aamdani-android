@@ -1,0 +1,47 @@
+{
+  "@@locale": "en",
+  "appTitle": "My Income",
+  "appSubtitle": "Track your earnings",
+  
+  "dashboard": "Dashboard",
+  "jobs": "Jobs",
+  "payments": "Payments",
+  "profile": "Profile",
+  
+  "totalEarnings": "Total Earnings",
+  "thisMonth": "This Month",
+  "pendingIncome": "Pending",
+  "collectedIncome": "Collected",
+  
+  "addWork": "Add Work",
+  "requestPayment": "Request Payment",
+  "myJobs": "My Jobs",
+  
+  "jobTitle": "Job Title",
+  "employerName": "Employer Name",
+  "amount": "Amount",
+  "date": "Date",
+  "status": "Status",
+  "notes": "Notes",
+  
+  "pending": "Pending",
+  "completed": "Completed",
+  "paid": "Paid",
+  
+  "save": "Save",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "edit": "Edit",
+  
+  "noJobsYet": "No jobs yet",
+  "addFirstJob": "Add your first job to start tracking income",
+  
+  "noPaymentsYet": "No payments yet",
+  "trackPayments": "Your payment requests will appear here",
+  
+  "language": "Language",
+  "settings": "Settings",
+  "about": "About",
+  
+  "rupeeSymbol": "₹"
+}
