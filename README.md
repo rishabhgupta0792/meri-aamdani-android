@@ -97,6 +97,7 @@ The app should launch on the emulator in about 30-60 seconds!
 
 - English
 - हिंदी (Hindi)
+- मराठी (Marathi)
 
 ## 🎨 Design Principles
 

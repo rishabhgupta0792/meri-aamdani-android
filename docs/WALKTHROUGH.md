@@ -325,16 +325,17 @@ The Flutter application is now fully aligned with the existing JavaScript web ap
 - **Login Flow**: 10-digit mobile number entry followed by Aadhaar and OTP verification.
 - **Dashboard Refinement**: Added Greeting section, split Pending/Collected stats, and a 3-column Quick Actions grid.
 - **Marathi Support**: Integrated Marathi localization (मराठी) to match the web app's reach.
+- **Demo-Ready Auth Flow**: All authentication steps (Login, Aadhaar, OTP, Bank) are pre-filled with dummy values (e.g., Phone: 9876543210) for seamless navigation during demos.
 
 ### Visual Verification:
-![Language Selection](/Users/atulchavan/.gemini/antigravity/brain/b667616e-c4ee-4154-9c71-706ea4a80016/lang_select.png)
+![Language Selection](lang_select.png)
 *Initial screen for selecting the preferred language.*
 
 ## First Run Verification
 
 The application was successfully launched on an Android emulator. Below is a screenshot of the Dashboard showing the minimalistic and elegant design system in action:
 
-![Meri Amdani Dashboard](/Users/atulchavan/.gemini/antigravity/brain/b667616e-c4ee-4154-9c71-706ea4a80016/app_screenshot.png)
+![Meri Amdani Dashboard](app_screenshot.png)
 
 ### Verified Features:
 - **Gradient Earnings Card**: Correctly renders total, pending, and collected income.
